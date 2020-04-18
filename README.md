@@ -28,8 +28,11 @@ on root directory
 
 `$ npx react-native run-ios --simulator="iPhone 11"`
 
+<div>
 <img src="light.png" alt="Light theme Screenshot" width="277" height="508">
 <img src="dark.png" alt="Dark theme Screenshot" width="277" height="508">
-<!-- 
+</div>
+
+<!--
 ![Light Theme Screenshot](light.png =277x508)
 ![Dark Theme Screenshot](dark.png =277x508) -->
