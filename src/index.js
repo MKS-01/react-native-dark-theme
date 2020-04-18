@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
-// import {AppearanceProvider} from 'react-native';
-import {View, Switch} from 'react-native';
+import React from 'react';
+import {View} from 'react-native';
 import Card from './component/card';
 import {ManageThemeProvider} from './store-context/theme-context';
 import {
@@ -11,15 +10,10 @@ import {
   TextContainer,
   TextView,
 } from './styles/rootView';
-import {useTheme} from './store-context/theme-context';
+import SwitchComponent from './component/switch';
 
 const App = () => {
-  const theme = useTheme();
-
-  console.log('...........', theme);
-
   return (
-    // <AppearanceProvider>
     <ManageThemeProvider>
       <RootSafeAreaView>
         <RootView>
@@ -42,15 +36,10 @@ const App = () => {
               analytiks SDKs, mobile apps, web apps.
             </TextView>
           </TextContainer>
-          <Switch
-            ios_backgroundColor="#3e3e3e"
-            value={theme.mode === 'dark'}
-            onValueChange={(value) => theme.setMode(value ? 'dark' : 'light')}
-          />
+          <SwitchComponent />
         </RootView>
       </RootSafeAreaView>
     </ManageThemeProvider>
-    // </AppearanceProvider>
   );
 };
 

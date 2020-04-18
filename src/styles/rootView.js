@@ -24,7 +24,6 @@ export const TitleText = styled.Text`
 `;
 
 export const TextContainer = styled.View`
-  /* background-color: red; */
   margin: ${scaleSize(15)}px 0;
 `;
 
