@@ -28,4 +28,5 @@ on root directory
 
 `$ npx react-native run-ios --simulator="iPhone 11"`
 
-![Image description](light.png)
+![Light Theme Screenshot](light.png)
+![Dark Theme Screenshot](dark.png)
