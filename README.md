@@ -2,7 +2,7 @@
 
 React native dark theme setup using https://reactnative.dev/docs/appearance with styled-components + hooks.
 
-For more details check out: mks-technophile.netlify.app/blog/react-native-dark-theme/
+For more details check out: https://mks-technophile.netlify.app/blog/react-native-dark-theme/
 
 ## Getting Started
 
