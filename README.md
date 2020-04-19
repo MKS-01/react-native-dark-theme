@@ -1,6 +1,6 @@
 # React-Native-Dark-Theme
 
-React native dark theme setup using https://reactnative.dev/docs/appearance with styled-components + hooks.
+React native dark theme setup using https://github.com/react-native-community/react-native-netinfo.
 
 For more details check out: https://mks-technophile.netlify.app/blog/react-native-dark-theme/
 
@@ -33,10 +33,6 @@ on root directory
 `$ npx react-native run-ios --simulator="iPhone 11"`
 
 <div>
-<img src="light.png" alt="Light theme Screenshot" width="277" height="508">
-<img src="dark.png" alt="Dark theme Screenshot" width="277" height="508">
+<img src="connected.png" alt="Status: connected" width="277" height="508">
+<img src="error.png" alt="Status: No Netwok" width="277" height="508">
 </div>
-
-<!--
-![Light Theme Screenshot](light.png =277x508)
-![Dark Theme Screenshot](dark.png =277x508) -->

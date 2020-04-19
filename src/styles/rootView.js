@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import {scaleSize} from './mixins';
+import {scaleSize, scaleFont} from './mixins';
 
 export const RootSafeAreaView = styled.SafeAreaView`
   flex: 1;
@@ -19,7 +19,7 @@ export const TitleView = styled.View`
 
 export const TitleText = styled.Text`
   color: ${(props) => props.theme.text};
-  font-size: ${22}px;
+  font-size: ${scaleFont(22)}px;
   font-weight: bold;
 `;
 
@@ -29,6 +29,6 @@ export const TextContainer = styled.View`
 
 export const TextView = styled.Text`
   color: ${(props) => props.theme.subText};
-  font-size: ${15}px;
+  font-size: ${scaleFont(15)}px;
   text-align: justify;
 `;
