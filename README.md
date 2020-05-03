@@ -33,6 +33,6 @@ on root directory
 `$ npx react-native run-ios --simulator="iPhone 11"`
 
 <div>
-<img src="./connected.png" alt="Status: connected" width="277" height="508">
-<img src="./error.png" alt="Status: No Netwok" width="277" height="508">
+<img src="connected.png" alt="Status: connected" width="277" height="508">
+<img src="error.png" alt="Status: No Netwok" width="277" height="508">
 </div>
